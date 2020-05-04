@@ -1,0 +1,5 @@
+[Default Applications]
+x-scheme-handler/discord-409416265891971072=discord-409416265891971072.desktop
+
+[Added Associations]
+application/x-java-archive=org.gnome.Nautilus.desktop;

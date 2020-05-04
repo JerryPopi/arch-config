@@ -1,0 +1,45 @@
+00:00:00.000298 main     VirtualBox XPCOM Server 6.1.6 r137129 linux.amd64 (Apr 15 2020 10:13:28) release log
+00:00:00.000300 main     Log opened 2020-05-02T19:22:36.670286000Z
+00:00:00.000300 main     Build Type: release
+00:00:00.000302 main     OS Product: Linux
+00:00:00.000303 main     OS Release: 5.6.8-arch1-1
+00:00:00.000304 main     OS Version: #1 SMP PREEMPT Wed, 29 Apr 2020 16:22:56 +0000
+00:00:00.000317 main     DMI Product Name: VirtualBox
+00:00:00.000324 main     DMI Product Version: 1.2
+00:00:00.000329 main     Firmware type: BIOS
+00:00:00.000350 main     Host RAM: 1989MB total, 1720MB available
+00:00:00.000351 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000352 main     Process ID: 4528
+00:00:00.000352 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001419 main     IPC socket path: /tmp/.vbox-root-ipc/ipcd
+00:00:00.105523 nspr-2   VirtualBox: object creation starts
+00:00:00.105586 nspr-2   Home directory: '/root/.config/VirtualBox'
+00:00:00.106705 nspr-2   HostDnsMonitor: initializing
+00:00:00.106794 nspr-2   NAT: resolv.conf: nameserver 192.168.0.1
+00:00:00.106802 nspr-2   HostDnsMonitor: updating information
+00:00:00.106815 nspr-2   HostDnsMonitor: old information
+00:00:00.106817 nspr-2     no server entries
+00:00:00.106820 nspr-2     no domain set
+00:00:00.106822 nspr-2     no search string entries
+00:00:00.106824 nspr-2   HostDnsMonitor: new information
+00:00:00.106825 nspr-2     server 1: 192.168.0.1
+00:00:00.106828 nspr-2     no domain set
+00:00:00.106830 nspr-2     no search string entries
+00:00:00.108342 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.108434 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.108770 nspr-2   VirtualBox: object created
+00:00:00.178803 ExtPackInst ExtPack: Executing '/usr/lib/virtualbox/VBoxExtPackHelperApp' 'install' '--base-dir' '/usr/lib/virtualbox/ExtensionPacks' '--cert-dir' '/usr/share/virtualbox/ExtPackCertificates' '--name' 'Oracle VM VirtualBox Extension Pack' '--tarball' '/usr/share/virtualbox/extensions/Oracle_VM_VirtualBox_Extension_Pack-6.1.6.vbox-extpack' '--sha-256' '1ab4321ad330c9c7eb02428c2ddde2c357297ca7133abfa38e37cd1f30698c0d'
+00:00:00.313000 ExtPackInst ExtPack: enmReason=1 iStatus=0 stderr='rcExit=RTEXITCODE_SUCCESS
+00:00:00.313002 ExtPackInst '
+00:00:00.313645 ExtPackInst ExtPackManager: Found extension pack 'Oracle VM VirtualBox Extension Pack'.
+00:00:00.313756 ExtPackInst ExtPackManager: Successfully installed extension pack 'Oracle VM VirtualBox Extension Pack'.
+00:00:00.313833 ExtPackInst OCI: Local config file '/root/.config/VirtualBox/oci_config' does not exist
+00:00:00.313845 ExtPackInst OCI: Original config file '/root/.oci/config' does not exist
+00:00:00.313847 ExtPackInst OCI: Reading profiles finished with status NS_OK
+00:00:00.313854 ExtPackInst ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:05.323560 main     VirtualBox: object deletion starts
+00:00:05.323810 main     HostDnsMonitor: shutting down ...
+00:00:05.329342 main     HostDnsMonitor: shut down
+00:00:05.614258 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:10.329506 main     {00007fee6c014ee0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:10.329840 main     VirtualBox: object deleted
